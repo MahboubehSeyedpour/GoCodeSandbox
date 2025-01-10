@@ -2,35 +2,15 @@ package main
 
 import "fmt"
 
-// Take two integers as input and print their sum.
-func addToIntegers(num1 int, num2 int) int {
-	return num1 + num2
+func numberIsEven(value int) bool {
+	return value%2 == 0
 }
 
-func checkEvenOrOdd(num int) string {
-	if num%2 == 0 {
-		return "Even"
-	} else {
-		return "Odd"
-	}
-}
-
-func findTheLargestOfTwoNumbers(num1 int, num2 int) int {
+func findTheLargestNumber(num1 int, num2 int) int {
 	if num1 >= num2 {
 		return num1
 	} else {
 		return num2
-	}
-}
-
-// check_if_a_numbers_positive_negative_or_zero
-func checkIfNumberIsPositiveOrNegative(num int) string {
-	if num > 0 {
-		return "Positive"
-	} else if num < 0 {
-		return "Negative"
-	} else {
-		return "Zero"
 	}
 }
 
