@@ -36,16 +36,11 @@ func checkIfNumberIsPositiveOrNegative(num int) string {
 
 // calculate_factorial
 func factorial(num int) int {
-
-	result := 1
-
 	if num == 1 || num == 0 {
 		return 1
 	} else {
-		result = result * (num) * factorial(num-1)
+		return num * factorial(num-1)
 	}
-
-	return result
 }
 
 // print_the_numbers_in_range(start, end)
