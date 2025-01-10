@@ -18,9 +18,11 @@ func main() {
 
 	//arr := []int{2, 4, 8, 5, 4}
 	//bubbleSortAsc(arr)
-	//fmt.Println(arr)
+	//fmt.Println(arr) // Output: [2 4 4 5 8]
 
-	arr1 := []int{1, 3, 6, 7, 12}
-	arr2 := []int{5, 8, 9, 15}
-	fmt.Println(mergeTwoSortedArray(arr1, arr2))
+	//arr1 := []int{1, 3, 6, 7, 12}
+	//arr2 := []int{5, 8, 9, 15}
+	//fmt.Println(mergeTwoSortedArray(arr1, arr2)) // Output: [1 3 5 6 7 8 9 12 15]
+
+	fmt.Println(checkIfNumberIsPositiveOrNegative(1)) // Output: Positive
 }

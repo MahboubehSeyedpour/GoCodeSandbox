@@ -21,7 +21,17 @@ func findTheLargestOfTwoNumbers(num1 int, num2 int) int {
 	}
 }
 
-// TODO: level1: check_if_a_numbers_positive_negative_or_zero
+// check_if_a_numbers_positive_negative_or_zero
+func checkIfNumberIsPositiveOrNegative(num int) string {
+	if num > 0 {
+		return "Positive"
+	} else if num < 0 {
+		return "Negative"
+	} else {
+		return "Zero"
+	}
+}
+
 // TODO: level1: calculate_factorial
 // TODO: level1: print_the_numbers_in_range(start, end)
 // TODO: level2: check_if_a_numbers_prime
