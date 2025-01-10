@@ -4,7 +4,7 @@ func main() {
 
 	//print(numberIsEven(120)) // Output true
 
-	//print(findTheLargestNumber(5, 3)) // Output 5
+	print(findTheLargestNumber(5, 3)) // Output 5
 
 	//printArray()
 
@@ -22,5 +22,5 @@ func main() {
 
 	//fmt.Println(factorial(5)) // Output: 120
 
-	printNumbersInRange(2, 10)
+	//printNumbersInRange(2, 10)
 }
