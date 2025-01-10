@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 
 	//print(addToIntegers(2, 3)) // Output 5
@@ -26,5 +24,7 @@ func main() {
 
 	//fmt.Println(checkIfNumberIsPositiveOrNegative(1)) // Output: Positive
 
-	fmt.Println(factorial(5)) // Output: 120
+	//fmt.Println(factorial(5)) // Output: 120
+
+	printNumbersInRange(2, 10)
 }

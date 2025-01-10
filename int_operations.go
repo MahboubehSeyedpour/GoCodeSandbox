@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // Take two integers as input and print their sum.
 func addToIntegers(num1 int, num2 int) int {
 	return num1 + num2
@@ -46,5 +48,12 @@ func factorial(num int) int {
 	return result
 }
 
-// TODO: level1: print_the_numbers_in_range(start, end)
+// print_the_numbers_in_range(start, end)
+// pre-assumption that end is greater that start
+func printNumbersInRange(start int, end int) {
+	for i := start; i < end; i++ {
+		fmt.Println(i)
+	}
+}
+
 // TODO: level2: check_if_a_numbers_prime
