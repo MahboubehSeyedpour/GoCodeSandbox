@@ -24,5 +24,7 @@ func main() {
 	//arr2 := []int{5, 8, 9, 15}
 	//fmt.Println(mergeTwoSortedArray(arr1, arr2)) // Output: [1 3 5 6 7 8 9 12 15]
 
-	fmt.Println(checkIfNumberIsPositiveOrNegative(1)) // Output: Positive
+	//fmt.Println(checkIfNumberIsPositiveOrNegative(1)) // Output: Positive
+
+	fmt.Println(factorial(5)) // Output: 120
 }

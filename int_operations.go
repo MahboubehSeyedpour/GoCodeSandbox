@@ -32,6 +32,19 @@ func checkIfNumberIsPositiveOrNegative(num int) string {
 	}
 }
 
-// TODO: level1: calculate_factorial
+// calculate_factorial
+func factorial(num int) int {
+
+	result := 1
+
+	if num == 1 || num == 0 {
+		return 1
+	} else {
+		result = result * (num) * factorial(num-1)
+	}
+
+	return result
+}
+
 // TODO: level1: print_the_numbers_in_range(start, end)
 // TODO: level2: check_if_a_numbers_prime
