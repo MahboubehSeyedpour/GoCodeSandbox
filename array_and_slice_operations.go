@@ -70,5 +70,4 @@ func mergeTwoSortedArray(arr1 []int, arr2 []int) []int {
 }
 
 // TODO level 3: Write a program to merge two sorted arrays into one sorted array without using additional libraries.
-// TODO level 3: Given an array and a target sum, find all subarrays whose elements sum up to the target.
 // TODO level 4: Write a program to find and print all unique elements in an array.

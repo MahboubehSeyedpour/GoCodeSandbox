@@ -1,10 +1,15 @@
 package main
 
+import (
+	"fmt"
+	"sync"
+)
+
 func main() {
 
 	//print(numberIsEven(120)) // Output true
 
-	print(findTheLargestNumber(5, 3)) // Output 5
+	//print(findTheLargestNumber(5, 3)) // Output 5
 
 	//printArray()
 
@@ -23,4 +28,9 @@ func main() {
 	//fmt.Println(factorial(5)) // Output: 120
 
 	//printNumbersInRange(2, 10)
+
+	var wg sync.WaitGroup
+	wg.Add(1)
+	fmt.Println(calcFactorialWithGoroutine(5, &wg))
+	wg.Wait()
 }

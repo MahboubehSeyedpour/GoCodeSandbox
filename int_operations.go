@@ -22,7 +22,7 @@ func factorial(num int) int {
 }
 
 // print_the_numbers_in_range(start, end)
-// pre-assumption that end is greater that start
+// pre-assumption that end is greater than start
 func printNumbersInRange(start int, end int) {
 	for i := start; i < end; i++ {
 		fmt.Println(i)
